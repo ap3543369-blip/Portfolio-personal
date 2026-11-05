@@ -7,6 +7,30 @@ export const PROJECT_CATEGORIES = [
     layout: "third",
     projects: [
       {
+   name: "SevaSetu",
+  icon: "fa-solid fa-handshake-angle",
+  description:
+    "A resource-sharing platform that connects donors, NGOs, hospitals and recipients to reduce waste and support communities through food, books, medicines and e-waste sharing.",
+  tech: ["PYTHON", "django", "React.js", "Sqllite", "REST API"],
+  github: "#",
+     },
+     {
+  name: "Learning Management System (LMS)",
+  icon: "fa-solid fa-graduation-cap",
+  description:
+    "A web-based learning platform with separate Super Admin, Teacher and Student portals. It supports course and subject management, study materials, assignments, submissions, marks, attendance, announcements, online tests and Google Meet integration.",
+  tech: ["Python", "Django", "SQLite", "HTML", "CSS", "Bootstrap"],
+  github: "https://github.com/ap3543369-blip/Learning-Management-System-LMS-.git",
+   },
+   {
+        name: "Global Alumni Portal",
+        icon: "fa-solid fa-users",
+        description:
+          "A web-based alumni platform that connects students and graduates through profiles, information sharing and a responsive user-friendly interface.",
+        tech: ["Python", "Django", "HTML", "CSS"],
+        github: "https://github.com/ap3543369-blip/Global-Alumni-Portal.git",
+      },
+      {
         name: "File Tracking Management System",
         icon: "fa-solid fa-folder-open",
         description:
@@ -22,14 +46,7 @@ export const PROJECT_CATEGORIES = [
         tech: ["Python", "Django", "HTML", "Bootstrap"],
         github: "#",
       },
-      {
-        name: "Global Alumni Portal",
-        icon: "fa-solid fa-users",
-        description:
-          "A web-based alumni platform that connects students and graduates through profiles, information sharing and a responsive user-friendly interface.",
-        tech: ["Python", "Django", "HTML", "CSS"],
-        github: "#",
-      },
+      
     ],
   },
   {
